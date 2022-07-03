@@ -1,0 +1,107 @@
+<style>
+  .block-region-header header {
+    padding-bottom: 0px;
+  }
+  .banner {
+    padding-top: 15px;
+  }
+  .banner .banner-content {
+    top: 8%;
+    padding: 0 0 0 12%;
+    max-width: 70%;
+  }
+  /* For Hydra Care banner */
+  .owl-item:nth-of-type(5) .banner-content {
+    top: 30%;
+  }
+
+  .banner .banner-content .banner-title h1 {
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+  }
+  .banner .banner-a-tag-btn {
+    padding: 0.1vw 16px;
+    margin-top: 10px;
+    font-size: 2.2vw;
+  }
+  .banner .banner-a-tag-btn a h2 {
+    font-size: 2.2vw;
+  }
+  .banner .banner-a-tag-btn a h2::after {
+    font-size: 2.2vw;
+  }
+
+  .owl-controls .owl-pagination {
+    /* bottom: 5vw; */
+    bottom: 12%;
+  }
+
+  @media (max-width: 768px) {
+    .banner {
+      padding-top: 0px;
+    }
+    .banner:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: #000;
+      opacity: 0.3;
+      top: 0;
+      left: 0;
+    }
+    .banner .banner-content {
+      top: 10%;
+      max-width: 100%;
+      padding: 0 15%;
+    }
+    .views-field.views-field-nothing .banner img {
+      width: 100% !important;
+      margin-left: unset !important;
+    }
+    .banner .banner-content .banner-title h1 {
+      font-size: 26px !important;
+      line-height: 26px !important;
+    }
+    .banner .banner-a-tag-btn a h2 {
+      font-size: 20px !important;
+    }
+    .banner .banner-a-tag-btn a h2::after {
+      font-size: 20px !important;
+    }
+
+    .owl-controls .owl-pagination {
+      bottom: 10px;
+    }
+  }
+  @media (max-width: 480px) {
+    .banner .banner-content .banner-title h1 {
+      font-size: 26px !important;
+      line-height: 26px !important;
+    }
+    .banner .banner-a-tag-btn a h2 {
+      font-size: 20px !important;
+    }
+    .banner .banner-a-tag-btn a h2::after {
+      font-size: 20px !important;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .banner .banner-content .banner-title h1 {
+      font-size: 3vw;
+      line-height: 3vw;
+    }
+    .banner .banner-a-tag-btn {
+      padding: 0.1vw 16px;
+      margin-top: 10px;
+      font-size: 1.5vw;
+    }
+    .banner .banner-a-tag-btn a h2 {
+      font-size: 1.5vw;
+    }
+    .banner .banner-a-tag-btn a h2::after {
+      font-size: 1.5vw;
+    }
+  }
+</style>
